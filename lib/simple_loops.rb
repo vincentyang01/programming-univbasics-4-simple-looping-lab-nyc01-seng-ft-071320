@@ -7,3 +7,11 @@ def loop_message_five_times(string)
     i += 1
   end
 end
+
+def loop_message_n_times(string, num)
+  i = 0
+  while i < num do
+    puts string
+    i += 1
+  end
+end
